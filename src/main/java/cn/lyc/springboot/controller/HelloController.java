@@ -7,6 +7,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import java.util.Arrays;
 import java.util.Map;
 
+/**
+ * @description:上传到gitHub上的版本问2.0
+ */
 @Controller
 public class HelloController {
 //    @RequestMapping({"/","/index.html"})
@@ -25,6 +28,7 @@ public class HelloController {
         //classpath:templates/success.html
         map.put("hello","<h1>你好</h1>");
         map.put("users", Arrays.asList("zhangsan","lisi","wangwu"));
+        System.out.println("");
         return "success";
     }
 }
