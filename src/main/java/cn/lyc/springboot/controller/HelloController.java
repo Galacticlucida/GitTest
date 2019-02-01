@@ -9,6 +9,7 @@ import java.util.Map;
 
 /**
  * @description:上传到gitHub上的版本问2.0
+ * @description:上传到gitHub上的版本问3.0
  */
 @Controller
 public class HelloController {
@@ -18,7 +19,7 @@ public class HelloController {
 //    }
 
     @ResponseBody
-    @RequestMapping("/hello")
+    @RequestMapping("/hello")git
     public  String hello(){
         return "Hello World";
     }
@@ -28,7 +29,7 @@ public class HelloController {
         //classpath:templates/success.html
         map.put("hello","<h1>你好</h1>");
         map.put("users", Arrays.asList("zhangsan","lisi","wangwu"));
-        System.out.println("");
+        System.out.println("分支的尝试");
         return "success";
     }
 }
