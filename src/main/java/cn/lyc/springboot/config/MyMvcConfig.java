@@ -13,6 +13,7 @@ import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
 //Success!
+//添加一个测试类！！！
 //使用WebMvcConfigurerAdapter来扩展springMVC的功能
 //@EnableWebMvc
 @Configuration
