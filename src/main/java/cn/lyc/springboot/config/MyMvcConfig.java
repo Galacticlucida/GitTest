@@ -1,4 +1,4 @@
-package cn.lyc.springboot.config;
+﻿package cn.lyc.springboot.config;
 
 
 import cn.lyc.springboot.component.LoginHandlerInterceptor;
@@ -12,6 +12,7 @@ import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
+//Success!
 //使用WebMvcConfigurerAdapter来扩展springMVC的功能
 //@EnableWebMvc
 @Configuration
